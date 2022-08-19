@@ -1,6 +1,7 @@
 body {
 	font-family: "Caveat";
-    background-color: #2A3166;
+    /* background-color: #2A3166; */
+    background-image:url("./photo/p16.jpg");
 }
 h2 {
 	font-size: 26px;
