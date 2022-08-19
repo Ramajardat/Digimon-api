@@ -1,0 +1,91 @@
+body {
+	font-family: "Caveat";
+    background-color: #2A3166;
+}
+h2 {
+	font-size: 26px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+header{
+    background-color:#F4ABAA;
+    display: flex;
+    justify-content: center;
+    color: #2A3166;
+}
+
+
+header #header-menu{
+    list-style: none;
+    padding: 10%;
+    display: flex;
+    gap: 30%;
+}
+
+
+header #header-menu li > a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+
+
+
+footer{
+    background-color:#F4ABAA;
+    display: flex;
+    justify-content: center;
+}
+
+footer #social{
+    list-style: none;
+    padding: 1.5%;
+    display: flex;
+    gap: 10%;
+
+}
+
+footer #social li > a{
+    text-decoration: none;
+    color: #2A3166;
+}
+#cardsDiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+#cardsDiv > div {
+	background-color: #F4ABAA;
+	color: white;
+	transition: 0.3s;
+	margin: 5px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border-radius: 5px;
+	text-align: center;
+	width: 100%;
+	max-width: 300px;}
+
+img {
+	margin-bottom: 30px;
+	border-radius: 5%;
+	width: 55%;
+}
+
+#cardsDiv > div > div {
+	padding: 12px 14px;
+}
+p {
+	margin: 0;
+	padding: 0;
+    font-size: 20px;
+}
