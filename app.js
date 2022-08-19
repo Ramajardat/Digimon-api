@@ -15,7 +15,6 @@ fetch("https://digimon-api.vercel.app/api/digimon")
     console.log(digimonArr);
 
     digimonArr.map(render);
-    // render(data);
   });
 // get search button from DOM
 const searchButton = document.getElementById("searchButton");
